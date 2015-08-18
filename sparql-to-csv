@@ -1,5 +1,11 @@
 #!/bin/bash
 
+# Usage:
+#
+# ./sparql-to-csv <filename.sparql>
+# ./sparql-to-csv <filename.sparql> > filename.csv
+#
+
 host=http://data.globalchange.gov/sparql
 q="`cat ${1:-/dev/stdin}`"
 
