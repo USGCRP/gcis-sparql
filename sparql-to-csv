@@ -1,0 +1,29 @@
+#!/usr/bin/env perl
+
+use Mojo::UserAgent;
+use v5.20;
+
+my $host = shift if ($ARGV[0] && $ARGV[0] =~ /^http/);
+$host ||= "http://data.globalchange.gov";
+my $sparql = join "\n", <>;
+my $base = "$host/sparql";
+
+my $url = Mojo::URL->new($base)->query(
+    "default-graph-uri" => "",
+    'should-sponge' => "",
+    query => $sparql,
+    format => 'text/csv',
+    debug => 'on',
+    timeout => 0);
+
+my $ua = Mojo::UserAgent->new();
+my $tx = $ua->get($url);
+
+my $res = $tx->success or do {
+    say $tx->error->{message} if !$tx->error->{code};
+    say $tx->error->{code}.' : '.$tx->error->{message} if $tx->error->{code};
+    exit;
+};
+
+say $res->body;
+

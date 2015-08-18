@@ -1,0 +1,7 @@
+#!/bin/bash
+
+for i in *.sparql; do
+    echo $i
+    ./sparql-to-csv $i > `basename $i .sparql`.csv
+done
+
