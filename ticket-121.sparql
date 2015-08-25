@@ -1,0 +1,44 @@
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX dbpedia: <http://dbpedia.org/resource/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX gcis: <http://data.globalchange.gov/gcis.owl#>
+
+SELECT * {
+{ SELECT DISTINCT
+str(?chapterTitle) as ?Chapter_Title
+?findingNumber
+?chapterNumber
+xsd:integer(SUBSTR(?findingNumber,3)) as ?figureOfChapter
+str(?findingStatement) as ?Finding_Text
+?finding as ?Finding_ID
+WHERE {
+<http://data.globalchange.gov/report/nca3> gcis:hasChapter ?chapter .
+?chapter dcterms:title ?chapterTitle .
+?chapter gcis:chapterNumber ?chapterNumber .
+?chapter gcis:hasFinding ?finding .
+?finding gcis:findingNumber ?findingNumber .
+?finding gcis:findingStatement ?findingStatement .
+FILTER(?chapterNumber < 10)
+}
+ORDER BY ?chapterNumber ?figureOfChapter
+} UNION {
+SELECT DISTINCT
+str(?chapterTitle) as ?Chapter_Title
+?findingNumber
+?chapterNumber
+xsd:integer(SUBSTR(?findingNumber,4)) as ?figureOfChapter
+str(?findingStatement) as ?Finding_Text
+?finding as ?Finding_ID
+WHERE {
+<http://data.globalchange.gov/report/nca3> gcis:hasChapter ?chapter .
+?chapter dcterms:title ?chapterTitle .
+?chapter gcis:chapterNumber ?chapterNumber .
+?chapter gcis:hasFinding ?finding .
+?finding gcis:findingNumber ?findingNumber .
+?finding gcis:findingStatement ?findingStatement .
+FILTER(?chapterNumber >= 10)
+}
+ORDER BY ?chapterNumber ?figureOfChapter
+}
+}
+
