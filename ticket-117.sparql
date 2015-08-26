@@ -3,13 +3,28 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX vivo: <http://vivoweb.org/ontology/core#>
 PREFIX gcis: <http://data.globalchange.gov/gcis.owl#>
 PREFIX prov: <http://www.w3.org/ns/prov#>
-PREFIX dbpprop: <http://dbpedia.org/property/>
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX dbp: <http://dbpedia.org/property/>
+PREFIX db: <http://dbpedia.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
 
-SELECT ?s ?lauchDate ?deactivated
-FROM <http://data.globalchange.gov>
+SELECT DISTINCT
+?platform_gcis
+?platform_dbpedia 
+?launchDate_gcis
+?launchDate_dbpedia 
+?cospar_dbpedia
 WHERE {
-  ?s a gcis:Platform .
-  OPTIONAL { ?s dbpprop:deactivated ?deactivated }
-  OPTIONAL { ?s dbpprop:launchDate ?lauchDate }
-}
-
+  FILTER(str(?match) = str(?platform_dbpedia))
+  SERVICE <http://data.globalchange.gov/sparql> {
+    ?platform_gcis a gcis:Platform .
+    ?platform_gcis owl:sameAs ?match .
+    ?platform_gcis dbp:launchDate ?launchDate_gcis
+    FILTER regex(?match, "dbpedia.org", "i") .
+  }
+  SERVICE <http://dbpedia.org/sparql> {
+    ?platform_dbpedia dbp:launchDate ?launchDate_dbpedia .
+    OPTIONAL { ?platform_dbpedia dbp:cosparId ?cospar_dbpedia }
+  }
+} LIMIT 60
