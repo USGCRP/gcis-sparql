@@ -1,0 +1,20 @@
+PREFIX rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:  <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd:   <http://www.w3.org/2001/XMLSchema#>
+PREFIX owl:   <http://www.w3.org/2002/07/owl#>
+PREFIX cito: <http://purl.org/spar/cito/>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+
+SELECT DISTINCT ?author as ?ContributorID CONCAT(str(?ln), ", ", str(?gn)) as ?name ?chapter str(?cr) as ?ChapterRole ?article str(?ar) AS ?ArticleRole
+FROM <http://data.globalchange.gov>
+WHERE {
+  <http://data.globalchange.gov/report/nca3> gcis:hasChapter ?chapter .
+  ?chapter prov:qualifiedAttribution [ prov:hadRole ?chapter_role ; prov:agent ?author ] .
+  ?chapter_role rdfs:label ?cr .
+  ?chapter cito:cites ?article .
+  ?article prov:qualifiedAttribution [ prov:hadRole ?article_role ;prov:agent ?author ] .
+  ?article_role rdfs:label ?ar .
+  ?author foaf:givenName ?gn .
+  ?author foaf:lastName ?ln .
+} order by ?ContributorID ?chapter ?article
