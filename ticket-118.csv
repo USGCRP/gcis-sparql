@@ -1,4 +1,10 @@
 "ContributorID","GivenName","LastName","callret-3"
+"http://data.globalchange.gov/person/10033","Ashleigh","Downing",1
+"http://data.globalchange.gov/person/10034","Alain","Cuerrier",1
+"http://data.globalchange.gov/person/10054","Jon A.","Dewitz",1
+"http://data.globalchange.gov/person/10058","Nate","Herold",1
+"http://data.globalchange.gov/person/10060","James","Wickham",1
+"http://data.globalchange.gov/person/10164","Daigee","Shaw",1
 "http://data.globalchange.gov/person/1271","Brian F.","Atwater",1
 "http://data.globalchange.gov/person/1388","David K.","Yamaguchi",1
 "http://data.globalchange.gov/person/1449","Jessica E.","Halofsky",2
@@ -9,6 +15,10 @@
 "http://data.globalchange.gov/person/2065","Michael J.","Furniss",1
 "http://data.globalchange.gov/person/2066","Ronald P.","Neilson",1
 "http://data.globalchange.gov/person/2067","Toni Lyn","Morelli",1
+"http://data.globalchange.gov/person/2161","Robert","Mendelsohn",1
+"http://data.globalchange.gov/person/2587","Collin G.","Homer",1
+"http://data.globalchange.gov/person/2588","Joyce A.","Fry",1
+"http://data.globalchange.gov/person/2589","Christopher A.","Barnes",1
 "http://data.globalchange.gov/person/3015","T. M. L.","Wigley",1
 "http://data.globalchange.gov/person/3016","B. D.","Santer",1
 "http://data.globalchange.gov/person/3239","Patrick L.","Kinney",1
@@ -25,6 +35,9 @@
 "http://data.globalchange.gov/person/4173","David C.","Shaw",1
 "http://data.globalchange.gov/person/4174","J.","Brad St.Clair",1
 "http://data.globalchange.gov/person/4355","Simon","Jennings",1
+"http://data.globalchange.gov/person/4473","Suming","Jin",1
+"http://data.globalchange.gov/person/4474","Limin","Yang",1
+"http://data.globalchange.gov/person/4478","George","Xian",1
 "http://data.globalchange.gov/person/4534","Pablo","Suarez",1
 "http://data.globalchange.gov/person/4535","Vijay","Mahal",1
 "http://data.globalchange.gov/person/4536","T.R.","Lakshmanan",1
@@ -57,6 +70,7 @@
 "http://data.globalchange.gov/person/7894","J.","Li",1
 "http://data.globalchange.gov/person/845","Linda","Joyce",1
 "http://data.globalchange.gov/person/851","William","Solecki",1
+"http://data.globalchange.gov/person/8606","William D.","Nordhaus",1
 "http://data.globalchange.gov/person/8972","Charles P.","Newcombe",1
 "http://data.globalchange.gov/person/8973","Jorgen O.T.","Jensen",1
 "http://data.globalchange.gov/person/9529","F","Shi",1
