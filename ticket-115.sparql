@@ -1,0 +1,24 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX gcis: <http://data.globalchange.gov/gcis.owl#>
+PREFIX cito: <http://purl.org/spar/cito/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX dbpprop: <http://dbpedia.org/property/>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+
+SELECT
+    ?title
+    ?figure as ?FigureURL
+COUNT (DISTINCT ?figure) as ?Frequency
+FROM <http://data.globalchange.gov>
+WHERE {
+  <http://data.globalchange.gov/report/nca3> gcis:hasFigure ?figure .
+  ?figure dcterms:title ?title .
+  ?figure gcis:hasCaption ?caption .
+  FILTER regex(?caption, "NC")
+  OPTIONAL{  ?figure gcis:hasCaption ?caption .
+             FILTER regex(?caption, "Cooperative Institute for Climate and Satellites")
+  }
+} order by ?title
