@@ -1,4 +1,4 @@
-PREFIX gcis: <http://www.w3.org/2001/XMLSchema#>
+PREFIX gcis: <http://data.globalchange.gov/gcis.owl#>
 PREFIX dcterms: <http://purl.org/dc/terms/>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
