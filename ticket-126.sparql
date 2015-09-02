@@ -1,8 +1,9 @@
 PREFIX gcis: <http://www.w3.org/2001/XMLSchema#>
 PREFIX dcterms: <http://purl.org/dc/terms/>
-prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 
-select ?figure from http://data.globalchange.gov where {
+select ?figure from <http://data.globalchange.gov> where {
    ?s a gcis:Report .
    ?s dcterms:title "Climate Change Impacts in the United States: The Third National Climate Assessment"^^xsd:string .
    ?s gcis:hasFigure ?figure .
