@@ -2,10 +2,12 @@ PREFIX dcterms: <http://purl.org/dc/terms/>
 PREFIX prov: <http://www.w3.org/ns/prov#>
 PREFIX gcis: <http://data.globalchange.gov/gcis.owl#>
 
-select distinct ?dataset
-?instrument_instance
-where {
-    ?dataset a gcis:Dataset .
-  { ?dataset prov:wasAttributedTo ?instrument_instance } UNION { ?dataset prov:wasDerivedFrom ?instrument_instance } .
-    ?instrument_instance a gcis:Instrument .
-}
+select distinct 
+	?instrument_instance
+    (count(?dataset) AS ?dataset_count)
+FROM <http://data.globalchange.gov> 
+    where {
+       ?dataset a gcis:Dataset .
+       ?dataset prov:wasAttributedTo ?instrument_instance .
+       ?instrument_instance a gcis:Instrument .
+} order by desc(?dataset_count)
