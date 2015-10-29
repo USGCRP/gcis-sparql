@@ -23,4 +23,4 @@ WHERE {
   ?role rdfs:label ?rlabel .
   ?author foaf:givenName ?gn .
   ?author foaf:lastName ?ln
-} group by ?author ?Name order by ?author
+} group by ?author order by ?Name
