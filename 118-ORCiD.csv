@@ -18,7 +18,7 @@ Row,ContributorID,GivenName,LastName,orcid,Frequency
 17,http://data.globalchange.gov/person/885,F. Stuart,Chapin III,0000-0002-2558-9910,4
 18,http://data.globalchange.gov/person/842,Gregg,Garfin,0000-0002-2760-132X,2
 19,http://data.globalchange.gov/person/844,Kim,Knowlton,0000-0002-8075-7817,1
-20,http://data.globalchange.gov/person/896,Susanne,Moser,0000-0001-6375-895X,3
+20,http://data.globalchange.gov/person/896,Susanne,Moser,0000-0001-6375-895X,4
 21,http://data.globalchange.gov/person/1053,Anthony C.,Janetos,0000-0003-0832-2664,1
 22,http://data.globalchange.gov/person/1075,Anne M.,Waple,0000-0002-4392-3388,2
 23,http://data.globalchange.gov/person/972,Joshua,Lawler,0000-0002-8306-3175,1
@@ -35,7 +35,7 @@ Row,ContributorID,GivenName,LastName,orcid,Frequency
 34,http://data.globalchange.gov/person/967,Henry,Huntington,0000-0003-2308-8677,2
 35,http://data.globalchange.gov/person/963,Doug,Kluck,0000-0002-9698-7991,1
 36,http://data.globalchange.gov/person/1006,Aris,Georgakakos,0000-0001-6606-5999,1
-37,http://data.globalchange.gov/person/957,A. David,McGuire,0000-0003-4646-0750,4m
+37,http://data.globalchange.gov/person/957,A. David,McGuire,0000-0003-4646-0750,4
 38,http://data.globalchange.gov/person/849,Steven,Running,0000-0001-6906-3841,1
 39,http://data.globalchange.gov/person/1014,Kathleen,White,0000-0001-9668-0562,2
 40,http://data.globalchange.gov/person/863,Jayantha,Obeysekera,0000-0002-9261-1268,1
@@ -69,7 +69,7 @@ Row,ContributorID,GivenName,LastName,orcid,Frequency
 68,http://data.globalchange.gov/person/2433,Molly O.,Baringer,0000-0002-8503-5194,2
 69,http://data.globalchange.gov/person/2440,Feike A.,Dijkstra,0000-0002-6191-6018,2
 70,http://data.globalchange.gov/person/2475,Dean B.,Gesch,0000-0002-8992-4933,1
-71,http://data.globalchange.gov/person/2528,Henry LeRoy,Miller Jr.,0000-0002-7155-8314,1
+71,http://data.globalchange.gov/person/2528,Henry LeRoy,Miller, Jr.,0000-0002-7155-8314,1
 72,http://data.globalchange.gov/person/2557,Rob,Swart,0000-0002-1563-1150,1
 73,http://data.globalchange.gov/person/2865,Suraje,Dessai,0000-0002-7879-9364,1
 74,http://data.globalchange.gov/person/2722,James,Kirchner,0000-0001-6577-3619,1
@@ -189,3 +189,5 @@ Row,ContributorID,GivenName,LastName,orcid,Frequency
 188,http://data.globalchange.gov/person/8995,Paul J.,Hanson,0000-0001-7293-3561,2
 189,http://data.globalchange.gov/person/7452,Kenneth M.,Johnson,0000-0001-5621-0312,1
 190,http://data.globalchange.gov/person/3897,Anatoly,Shvidenko,0000-0001-7640-2151,1
+191,http://data.globalchange.gov/person/3894,Josep G.,Canadell,0000-0002-8788-3218,1
+192,http://data.globalchange.gov/person/7514,David,Satterthwaite,0000-0002-0077-1353,1
