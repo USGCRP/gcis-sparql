@@ -71,14 +71,14 @@ Row,ContributorID,Name,Role,ChapterName,ChapterNumber
 70,http://data.globalchange.gov/person/874,"Grimm, Nancy B.",Lead Author,"Ecosystems, Biodiversity, and Ecosystem Services",8
 71,http://data.globalchange.gov/person/913,"Maibach, Edward",Contributing Author,Human Health,9
 72,http://data.globalchange.gov/person/924,"Backer, Lorraine",Contributing Author,Human Health,9
-73,http://data.globalchange.gov/person/903,"Beard, Charles",Contributing Author,Human Health,9
-74,http://data.globalchange.gov/person/916,"Frumkin, Howard",Lead Author,Human Health,9
-75,http://data.globalchange.gov/person/914,"Zielinski-Gutiérrez, Emily",Contributing Author,Human Health,9
-76,http://data.globalchange.gov/person/3438,"Ebi, Kristie L.",Contributing Author,Human Health,9
-77,http://data.globalchange.gov/person/932,"Sheats, Nicky",Lead Author,Human Health,9
-78,http://data.globalchange.gov/person/923,"Ziska, Lewis",Contributing Author,Human Health,9
-79,http://data.globalchange.gov/person/929,"McGeehin, Michael",Lead Author,Human Health,9
-80,http://data.globalchange.gov/person/925,"Hayden, Mary",Lead Author,Human Health,9
+73,http://data.globalchange.gov/person/916,"Frumkin, Howard",Lead Author,Human Health,9
+74,http://data.globalchange.gov/person/914,"Zielinski-Gutiérrez, Emily",Contributing Author,Human Health,9
+75,http://data.globalchange.gov/person/3438,"Ebi, Kristie L.",Contributing Author,Human Health,9
+76,http://data.globalchange.gov/person/932,"Sheats, Nicky",Lead Author,Human Health,9
+77,http://data.globalchange.gov/person/923,"Ziska, Lewis",Contributing Author,Human Health,9
+78,http://data.globalchange.gov/person/929,"McGeehin, Michael",Lead Author,Human Health,9
+79,http://data.globalchange.gov/person/925,"Hayden, Mary",Lead Author,Human Health,9
+80,http://data.globalchange.gov/person/903,"Beard, C. Ben",Contributing Author,Human Health,9
 81,http://data.globalchange.gov/person/940,"Ostfeld, Richard",Contributing Author,Human Health,9
 82,http://data.globalchange.gov/person/917,"Hess, Jeremy",Lead Author,Human Health,9
 83,http://data.globalchange.gov/person/904,"Wiedinmyer, Christine",Contributing Author,Human Health,9
@@ -216,10 +216,10 @@ Row,ContributorID,Name,Role,ChapterName,ChapterNumber
 215,http://data.globalchange.gov/person/953,"Rosenberg, Andrew A.",Convening Lead Author,Oceans and Marine Resources,24
 216,http://data.globalchange.gov/person/994,"Harvell, C. Drew",Lead Author,Oceans and Marine Resources,24
 217,http://data.globalchange.gov/person/968,"Neumann, James E.",Lead Author,Coastal Zone Development and Ecosystems,25
-218,http://data.globalchange.gov/person/982,"Kirshen, Paul",Lead Author,Coastal Zone Development and Ecosystems,25
-219,http://data.globalchange.gov/person/896,"Moser, Susanne",Convening Lead Author,Coastal Zone Development and Ecosystems,25
-220,http://data.globalchange.gov/person/1011,"Murley, James F.",Lead Author,Coastal Zone Development and Ecosystems,25
-221,http://data.globalchange.gov/person/962,"Reed, Denise",Lead Author,Coastal Zone Development and Ecosystems,25
+218,http://data.globalchange.gov/person/962,"Reed, Denise J.",Lead Author,Coastal Zone Development and Ecosystems,25
+219,http://data.globalchange.gov/person/982,"Kirshen, Paul",Lead Author,Coastal Zone Development and Ecosystems,25
+220,http://data.globalchange.gov/person/896,"Moser, Susanne",Convening Lead Author,Coastal Zone Development and Ecosystems,25
+221,http://data.globalchange.gov/person/1011,"Murley, James F.",Lead Author,Coastal Zone Development and Ecosystems,25
 222,http://data.globalchange.gov/person/975,"Petes, Laura",Lead Author,Coastal Zone Development and Ecosystems,25
 223,http://data.globalchange.gov/person/984,"Mulvaney, Peter",Lead Author,Coastal Zone Development and Ecosystems,25
 224,http://data.globalchange.gov/person/889,"Davidson, Margaret A.",Convening Lead Author,Coastal Zone Development and Ecosystems,25
@@ -227,12 +227,12 @@ Row,ContributorID,Name,Role,ChapterName,ChapterNumber
 226,http://data.globalchange.gov/person/853,"Williams, B. Ken",Lead Author,"Decision Support: Connecting Science, Risk Perception, and Decisions",26
 227,http://data.globalchange.gov/person/1036,"Cloyd, Emily Therese",Contributing Author,"Decision Support: Connecting Science, Risk Perception, and Decisions",26
 228,http://data.globalchange.gov/person/873,"Kenney, Melissa A.",Lead Author,"Decision Support: Connecting Science, Risk Perception, and Decisions",26
-229,http://data.globalchange.gov/person/869,"Patton, Lindene",Contributing Author,"Decision Support: Connecting Science, Risk Perception, and Decisions",26
-230,http://data.globalchange.gov/person/861,"Boyd, James W.",Contributing Author,"Decision Support: Connecting Science, Risk Perception, and Decisions",26
-231,http://data.globalchange.gov/person/867,"Kaatz, Laurna",Contributing Author,"Decision Support: Connecting Science, Risk Perception, and Decisions",26
-232,http://data.globalchange.gov/person/862,"Manning, Jay",Lead Author,"Decision Support: Connecting Science, Risk Perception, and Decisions",26
-233,http://data.globalchange.gov/person/860,"Kunreuther, Howard",Lead Author,"Decision Support: Connecting Science, Risk Perception, and Decisions",26
-234,http://data.globalchange.gov/person/1051,"Scarlett, P. Lynn",Convening Lead Author,"Decision Support: Connecting Science, Risk Perception, and Decisions",26
+229,http://data.globalchange.gov/person/9330,"Scarlett, P. Lynn",Convening Lead Author,"Decision Support: Connecting Science, Risk Perception, and Decisions",26
+230,http://data.globalchange.gov/person/869,"Patton, Lindene",Contributing Author,"Decision Support: Connecting Science, Risk Perception, and Decisions",26
+231,http://data.globalchange.gov/person/861,"Boyd, James W.",Contributing Author,"Decision Support: Connecting Science, Risk Perception, and Decisions",26
+232,http://data.globalchange.gov/person/867,"Kaatz, Laurna",Contributing Author,"Decision Support: Connecting Science, Risk Perception, and Decisions",26
+233,http://data.globalchange.gov/person/862,"Manning, Jay",Lead Author,"Decision Support: Connecting Science, Risk Perception, and Decisions",26
+234,http://data.globalchange.gov/person/860,"Kunreuther, Howard",Lead Author,"Decision Support: Connecting Science, Risk Perception, and Decisions",26
 235,http://data.globalchange.gov/person/833,"Moss, Richard",Convening Lead Author,"Decision Support: Connecting Science, Risk Perception, and Decisions",26
 236,http://data.globalchange.gov/person/1057,"Schimel, David",Lead Author,Mitigation,27
 237,http://data.globalchange.gov/person/1054,"Birdsey, Richard",Lead Author,Mitigation,27
