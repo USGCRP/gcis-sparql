@@ -16,8 +16,8 @@
 "http://data.globalchange.gov/platform/defense-meteorological-satellite-program-f-13/instrument/special-sensor-microwave-imager",36
 "http://data.globalchange.gov/platform/quick-scatterometer/instrument/seawinds",29
 "http://data.globalchange.gov/platform/defense-meteorological-satellite-program-f-11/instrument/special-sensor-microwave-imager",27
+"http://data.globalchange.gov/platform/defense-meteorological-satellite-program-f-17/instrument/special-sensor-microwave-imager-sounder",27
 "http://data.globalchange.gov/platform/landsat-7/instrument/enhanced-thematic-mapper-plus",26
-"http://data.globalchange.gov/platform/defense-meteorological-satellite-program-f-17/instrument/special-sensor-microwave-imager-sounder",26
 "http://data.globalchange.gov/platform/defense-meteorological-satellite-program-f-8/instrument/special-sensor-microwave-imager",24
 "http://data.globalchange.gov/platform/tropical-rainfall-measuring-mission/instrument/trmm-microwave-imager",23
 "http://data.globalchange.gov/platform/advanced-earth-observing-satellite-ii/instrument/seawinds",22
@@ -26,11 +26,10 @@
 "http://data.globalchange.gov/platform/jason-1/instrument/poseidon-2",16
 "http://data.globalchange.gov/platform/jason-1/instrument/jason-microwave-radiometer",16
 "http://data.globalchange.gov/platform/jason-2/instrument/poseidon-3",15
-"http://data.globalchange.gov/platform/topex-poseidon/instrument/topex-nasa-radar-altimeter",15
-"http://data.globalchange.gov/platform/topex-poseidon/instrument/topex-microwave-radiometer",15
-"http://data.globalchange.gov/platform/topex-poseidon/instrument/poseidon-1",14
 "http://data.globalchange.gov/platform/jason-2/instrument/advanced-microwave-radiometer",14
-"http://data.globalchange.gov/platform/advanced-earth-observing-satellite/instrument/nasa-scatterometer",13
+"http://data.globalchange.gov/platform/topex-poseidon/instrument/poseidon-1",13
+"http://data.globalchange.gov/platform/topex-poseidon/instrument/topex-nasa-radar-altimeter",13
+"http://data.globalchange.gov/platform/topex-poseidon/instrument/topex-microwave-radiometer",13
 "http://data.globalchange.gov/platform/defense-meteorological-satellite-program-f-15/instrument/special-sensor-microwave-imager",13
 "http://data.globalchange.gov/platform/environmental-satellite/instrument/advanced-along-track-scanning-radiometer",12
 "http://data.globalchange.gov/platform/defense-meteorological-satellite-program-f-14/instrument/special-sensor-microwave-imager",12
@@ -38,6 +37,7 @@
 "http://data.globalchange.gov/platform/geostationary-operational-environmental-satellite-8/instrument/imager",10
 "http://data.globalchange.gov/platform/national-oceanic-and-atmospheric-administration-10/instrument/advanced-very-high-resolution-radiometer-2",10
 "http://data.globalchange.gov/platform/suomi-national-polar-orbiting-partnership/instrument/visible-infrared-imager-radiometer-suite",9
+"http://data.globalchange.gov/platform/advanced-earth-observing-satellite/instrument/nasa-scatterometer",9
 "http://data.globalchange.gov/platform/defense-meteorological-satellite-program-f-10/instrument/special-sensor-microwave-imager",8
 "http://data.globalchange.gov/platform/geostationary-operational-environmental-satellite-7/instrument/vissr-atmospheric-sounder",7
 "http://data.globalchange.gov/platform/terra/instrument/advanced-spaceborne-thermal-emission-and-reflection-radiometer",7
