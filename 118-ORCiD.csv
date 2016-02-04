@@ -1,9 +1,9 @@
 "ContributorID","GivenName","LastName","orcid","Frequency"
 "http://data.globalchange.gov/person/1025","Kenneth","Kunkel","0000-0001-6667-7047",26
-"http://data.globalchange.gov/person/1526","Dennis P.","Lettenmaier","0000-0003-3317-1327",25
+"http://data.globalchange.gov/person/1526","Dennis P.","Lettenmaier","0000-0003-3317-1327",26
 "http://data.globalchange.gov/person/1016","Michael","Dettinger","0000-0002-7509-7332",21
+"http://data.globalchange.gov/person/1024","Katharine","Hayhoe","0000-0003-3625-1402",20
 "http://data.globalchange.gov/person/885","F. Stuart","Chapin III","0000-0002-2558-9910",19
-"http://data.globalchange.gov/person/1024","Katharine","Hayhoe","0000-0003-3625-1402",19
 "http://data.globalchange.gov/person/957","A. David","McGuire","0000-0003-4646-0750",19
 "http://data.globalchange.gov/person/896","Susanne","Moser","0000-0001-6375-895X",17
 "http://data.globalchange.gov/person/3438","Kristie L.","Ebi","0000-0003-4746-8236",16
@@ -135,6 +135,7 @@
 "http://data.globalchange.gov/person/3846","Sandra ","McLellan","0000-0003-3283-1151",3
 "http://data.globalchange.gov/person/4348","Michael","Roderick","0000-0002-3630-7739",3
 "http://data.globalchange.gov/person/2235","Efthimios","Tagaris","0000-0001-7988-9073",3
+"http://data.globalchange.gov/person/4790","Kuo-Jen","Liao","0000-0001-7047-8841",3
 "http://data.globalchange.gov/person/5133","Anne","Clites","0000-0002-2385-3802",3
 "http://data.globalchange.gov/person/4307","Brent M.","Lofgren","0000-0003-2189-0914",3
 "http://data.globalchange.gov/person/5225","Gavin A.","Schmidt","0000-0002-2258-0486",3
@@ -192,6 +193,7 @@
 "http://data.globalchange.gov/person/6834","James","Meldrum","0000-0001-5250-3759",2
 "http://data.globalchange.gov/person/880","Robin","Newmark","0000-0001-6018-185X",2
 "http://data.globalchange.gov/person/6841","Helmut","Haberl","0000-0003-2104-5446",2
+"http://data.globalchange.gov/person/6235","A. Townsend","Peterson","0000-0003-0243-2379",2
 "http://data.globalchange.gov/person/7840","William J.","Randel","0000-0002-5999-7162",2
 "http://data.globalchange.gov/person/7354","Mark","Boyce","0000-0001-5811-325X",2
 "http://data.globalchange.gov/person/8289","Adam H.","Sobel","0000-0003-3602-0567",2
@@ -203,6 +205,7 @@
 "http://data.globalchange.gov/person/6437","Jonathan","Gilligan","0000-0003-1375-6686",2
 "http://data.globalchange.gov/person/1075","Anne M.","Waple","0000-0002-4392-3388",2
 "http://data.globalchange.gov/person/1822","Janet L.","Gamble","0000-0003-3179-730X",2
+"http://data.globalchange.gov/person/1705","Benjamin S.","Orlove","0000-0003-0489-4219",2
 "http://data.globalchange.gov/person/1240","Noora-Lisa","Aberman","0000-0002-9469-3260",2
 "http://data.globalchange.gov/person/1264","Juli ","Trtanj","0000-0003-3878-7200",2
 "http://data.globalchange.gov/person/2311","Ignasi","Bartomeus","0000-0001-7893-4389",2
@@ -220,6 +223,7 @@
 "http://data.globalchange.gov/person/2977","Cameron","Wake","0000-0002-5961-5902",2
 "http://data.globalchange.gov/person/3001","Wenhong","Li","0000-0002-5990-2004",2
 "http://data.globalchange.gov/person/3013","Suzana J.","Camargo","0000-0002-0802-5160",2
+"http://data.globalchange.gov/person/3461","Michel G. J.","den Elzen","0000-0002-5128-8150",2
 "http://data.globalchange.gov/person/3638","Jessie","Jarvis","0000-0001-8467-0287",2
 "http://data.globalchange.gov/person/3792","Paulo","Artaxo","0000-0001-7754-3036",2
 "http://data.globalchange.gov/person/4347","Natalie","Mahowald","0000-0002-2873-997X",2
@@ -296,6 +300,7 @@
 "http://data.globalchange.gov/person/3353","Derek","Booth","0000-0002-5242-4089",2
 "http://data.globalchange.gov/person/4068","Polly J.","Ericksen","0000-0002-5775-7691",2
 "http://data.globalchange.gov/person/5899","Joaquin A.","Trinanes","0000-0003-1529-3371",2
+"http://data.globalchange.gov/person/4157","Ted","Hogg","0000-0002-6198-0124",2
 "http://data.globalchange.gov/person/6108","Peter E.","Levy","0000-0002-8505-1901",2
 "http://data.globalchange.gov/person/6146","Jianwu","Tang","0000-0003-2498-9012",2
 "http://data.globalchange.gov/person/5135","Henry D.","Adams","0000-0002-6403-5304",2
@@ -342,6 +347,7 @@
 "http://data.globalchange.gov/person/5082","John","Turner","0000-0002-6111-5122",1
 "http://data.globalchange.gov/person/5268","Andrew G.","Dickson","0000-0002-2947-2760",1
 "http://data.globalchange.gov/person/5278","William","Emery","0000-0002-7598-9082",1
+"http://data.globalchange.gov/person/5636","Whitney","Broussard","0000-0001-6000-2751",1
 "http://data.globalchange.gov/person/2728","Ke","Zhang","0000-0001-5288-9372",1
 "http://data.globalchange.gov/person/5705","Sönke","Zaehle","0000-0001-5602-7956",1
 "http://data.globalchange.gov/person/5842","Ian","Wright","0000-0001-8338-9143",1
@@ -352,6 +358,7 @@
 "http://data.globalchange.gov/person/5974","Andrew","Derocher","0000-0002-1104-7774",1
 "http://data.globalchange.gov/person/5981","Shawn J.","Marshall","0000-0002-8300-1388",1
 "http://data.globalchange.gov/person/6015","Dorothee","Bakker","0000-0001-9234-5337",1
+"http://data.globalchange.gov/person/6007","Sophie","Fielding","0000-0002-3152-4742",1
 "http://data.globalchange.gov/person/6075","Asfawossen","Asrat","0000-0002-6312-8082",1
 "http://data.globalchange.gov/person/6077","Danny","McCarroll","0000-0002-5992-5070",1
 "http://data.globalchange.gov/person/6078","Steven","Phipps","0000-0001-5657-8782",1
@@ -359,11 +366,14 @@
 "http://data.globalchange.gov/person/6080","Andrés","Rivera","0000-0002-2779-4192",1
 "http://data.globalchange.gov/person/6081","Robert","Mulvaney","0000-0002-5372-8148",1
 "http://data.globalchange.gov/person/6620","Frederik","Simons","0000-0003-2021-6645",1
+"http://data.globalchange.gov/person/6828","Jeffery B.","Greenblatt","0000-0002-6421-3385",1
+"http://data.globalchange.gov/person/6830","James E.","McMahon","0000-0002-7012-9964",1
 "http://data.globalchange.gov/person/6840","Karlheinz","Erb","0000-0002-8335-4159",1
 "http://data.globalchange.gov/person/6838","Fridolin","Krausmann","0000-0002-9995-2372",1
 "http://data.globalchange.gov/person/7178","Jia","Hu","0000-0001-6858-6659",1
 "http://data.globalchange.gov/person/7181","Sean","Burns","0000-0002-6258-1838",1
 "http://data.globalchange.gov/person/7980","Sjerp","de Vries","0000-0002-0525-6967",1
+"http://data.globalchange.gov/person/8111","Colleen Cassady","St. Clair","0000-0002-3378-795X",1
 "http://data.globalchange.gov/person/8374","Dan","Hodson","0000-0001-7159-6700",1
 "http://data.globalchange.gov/person/8372","Rym","Msadek","0000-0003-0450-4815",1
 "http://data.globalchange.gov/person/8375","Jon","Robson","0000-0002-3467-018X",1
@@ -379,6 +389,7 @@
 "http://data.globalchange.gov/person/10121","Linda Waimarie","Nikora","0000-0002-0514-4236",1
 "http://data.globalchange.gov/person/10122","Bernard","Guerin","0000-0002-2773-0746",1
 "http://data.globalchange.gov/person/10179","Rosita","Henry","0000-0002-1762-5715",1
+"http://data.globalchange.gov/person/10838","Daniel E.","Campbell","0000-0003-2154-9572",1
 "http://data.globalchange.gov/person/10564","Emily","Moberg","0000-0002-4745-6967",1
 "http://data.globalchange.gov/person/1250","Kimberly Thigpen","Tart","0000-0003-1633-1624",1
 "http://data.globalchange.gov/person/875","Paul ","Schramm","0000-0003-0299-6211",1
@@ -404,13 +415,16 @@
 "http://data.globalchange.gov/person/2739","Prasanna H.","Gowda","0000-0001-8782-6953",1
 "http://data.globalchange.gov/person/2932","Jennifer E.","Davison","0000-0003-0792-9755",1
 "http://data.globalchange.gov/person/2976","Tara","Troy","0000-0001-5366-0633",1
+"http://data.globalchange.gov/person/3064","Cory W.","Morin","0000-0001-9672-5564",1
 "http://data.globalchange.gov/person/3100","Joanna L.","Nelson","0000-0002-0738-8736",1
 "http://data.globalchange.gov/person/3125","Sherilee","Harper","0000-0001-7298-8765",1
 "http://data.globalchange.gov/person/3267","David","Stevenson","0000-0002-4745-5673",1
 "http://data.globalchange.gov/person/3328","Royce","Francis","0000-0001-8240-4903",1
+"http://data.globalchange.gov/person/3327","Seth D.","Guikema","0000-0001-6024-0303",1
 "http://data.globalchange.gov/person/3417","Andreas","Sterl","0000-0003-3457-0434",1
 "http://data.globalchange.gov/person/3418","Ralf","Weisse","0000-0001-7449-6166",1
 "http://data.globalchange.gov/person/3419","Robert","Kopp","0000-0003-4016-9428",1
+"http://data.globalchange.gov/person/3464","Kees","Klein Goldewijk","0000-0003-2714-7507",1
 "http://data.globalchange.gov/person/3468","Bas","van Ruijven","0000-0003-1232-5892",1
 "http://data.globalchange.gov/person/3488","Kaveh","Madani","0000-0003-0378-3170",1
 "http://data.globalchange.gov/person/3835","Kimberly Nicholas","Cahill","0000-0002-4756-7851",1
@@ -437,6 +451,7 @@
 "http://data.globalchange.gov/person/5254","Michael","Wulder","0000-0002-6942-1896",1
 "http://data.globalchange.gov/person/5264","Michael","Stewardson","0000-0003-1356-0472",1
 "http://data.globalchange.gov/person/5265","Quentin","Grafton","0000-0002-0048-9083",1
+"http://data.globalchange.gov/person/5338","Dong L.","Wu","0000-0002-3490-9437",1
 "http://data.globalchange.gov/person/5429","Gert-Jan","Steeneveld","0000-0002-5922-8179",1
 "http://data.globalchange.gov/person/5540","Jasmin G.","John","0000-0003-2696-277X",1
 "http://data.globalchange.gov/person/5550","Rachel","Law","0000-0002-7346-0927",1
@@ -496,6 +511,7 @@
 "http://data.globalchange.gov/person/8958","Andreas","Hamann","0000-0003-2046-4550",1
 "http://data.globalchange.gov/person/10762","Mark B.","Green","0000-0002-7415-7209",1
 "http://data.globalchange.gov/person/10763","Chris E.","Johnson","0000-0001-9079-813X",1
+"http://data.globalchange.gov/person/8998","Chris J.","Peterson","0000-0002-9850-1019",1
 "http://data.globalchange.gov/person/9067","Mads Peter","Heide-Jørgensen","0000-0003-4846-7622",1
 "http://data.globalchange.gov/person/9117","Michael","Christie","0000-0002-8346-9140",1
 "http://data.globalchange.gov/person/9118","Mark","Reed","0000-0002-8958-8474",1
@@ -511,6 +527,7 @@
 "http://data.globalchange.gov/person/2696","Stefan","Hendricks","0000-0002-1412-3146",1
 "http://data.globalchange.gov/person/2695","Sinead","Farrell","0000-0003-3222-2751",1
 "http://data.globalchange.gov/person/820","Donald","Scavia","0000-0002-2784-8269",1
+"http://data.globalchange.gov/person/3116","John S.","Brownstein","0000-0001-8568-5317",1
 "http://data.globalchange.gov/person/3171","Jacques","Finlay","0000-0002-7968-7030",1
 "http://data.globalchange.gov/person/958","Bob","Gough","0000-0002-1694-9718",1
 "http://data.globalchange.gov/person/3666","James","Manning","0000-0001-8602-8052",1
@@ -575,7 +592,6 @@
 "http://data.globalchange.gov/person/3986","David","Breininger","0000-0002-3326-549X",1
 "http://data.globalchange.gov/person/4155","Haroun","Chenchouni","0000-0001-9077-2706",1
 "http://data.globalchange.gov/person/4156","Michel","Vennetier","0000-0002-7549-5701",1
-"http://data.globalchange.gov/person/4157","Ted","Hogg","0000-0002-6198-0124",1
 "http://data.globalchange.gov/person/4158","Thomas","Kitzberger","0000-0002-9754-4121",1
 "http://data.globalchange.gov/person/4357","Benjamin","Planque","0000-0002-0557-7410",1
 "http://data.globalchange.gov/person/4375","Philip","James","0000-0001-9079-3953",1
@@ -601,6 +617,7 @@
 "http://data.globalchange.gov/person/5932","Chandana","Gangodagamage","0000-0001-6511-1711",1
 "http://data.globalchange.gov/person/6118","Glen","Peters","0000-0001-7889-8568",1
 "http://data.globalchange.gov/person/6147","Ivan","Janssens","0000-0002-5705-1787",1
+"http://data.globalchange.gov/person/6345","Arthur E.","Weis","0000-0002-7056-4886",1
 "http://data.globalchange.gov/person/6673","R. Steven","Nerem","0000-0003-4064-8111",1
 "http://data.globalchange.gov/person/6674","Don P.","Chambers","0000-0002-5439-0257",1
 "http://data.globalchange.gov/person/6696","John","Kittinger","0000-0001-8799-7373",1
@@ -624,10 +641,14 @@
 "http://data.globalchange.gov/person/8524","Micaela","Parker","0000-0003-1007-4612",1
 "http://data.globalchange.gov/person/8615","Erin","Lipp","0000-0002-8066-0636",1
 "http://data.globalchange.gov/person/8623","Ali ","Khan","0000-0001-8161-2823",1
+"http://data.globalchange.gov/person/8635","Philip J.","Landrigan","0000-0002-0150-6914",1
+"http://data.globalchange.gov/person/8665","Jonathan E.","Suk","0000-0003-4689-4583",1
 "http://data.globalchange.gov/person/953","Andrew A.","Rosenberg","0000-0002-6874-110X",1
 "http://data.globalchange.gov/person/8889","Dustin","Rubenstein","0000-0002-4999-3723",1
+"http://data.globalchange.gov/person/9021","Myron P.","Gutmann","0000-0002-6808-3573",1
 "http://data.globalchange.gov/person/9111","Carrie","Kappel","0000-0003-2507-8042",1
 "http://data.globalchange.gov/person/9604","Burrell","Montz","0000-0002-4251-294X",1
+"http://data.globalchange.gov/person/9801","Patricia","Glibert","0000-0001-5690-1674",1
 "http://data.globalchange.gov/person/2722","James","Kirchner","0000-0001-6577-3619",1
 "http://data.globalchange.gov/person/2851","David","Karoly","0000-0002-8671-2994",1
 "http://data.globalchange.gov/person/2881","Maureen","Cropper","0000-0002-4539-3798",1
@@ -641,6 +662,7 @@
 "http://data.globalchange.gov/person/3645","Jill","Johnstone","0000-0001-6131-9339",1
 "http://data.globalchange.gov/person/3692","Thomas","Measham","0000-0003-4549-5361",1
 "http://data.globalchange.gov/person/3863","Norman","Duke","0000-0003-2081-9120",1
+"http://data.globalchange.gov/person/3905","Wouter","Peters","0000-0001-8166-2070",1
 "http://data.globalchange.gov/person/4081","Rupert","Gladstone","0000-0002-1582-3857",1
 "http://data.globalchange.gov/person/4082","Hartmut","Hellmer","0000-0002-9357-9853",1
 "http://data.globalchange.gov/person/4078","Tamsin L.","Edwards","0000-0002-4760-4704",1
@@ -677,6 +699,7 @@
 "http://data.globalchange.gov/person/6185","Jeremy","Caves","0000-0003-4123-3305",1
 "http://data.globalchange.gov/person/6186","Bayden","Russell","0000-0003-1282-9978",1
 "http://data.globalchange.gov/person/6188","Sean","Connell","0000-0002-5350-6852",1
+"http://data.globalchange.gov/person/6531","Jay","Portnoy","0000-0002-2465-3861",1
 "http://data.globalchange.gov/person/6548","Anthony John","Burton","0000-0002-6860-5554",1
 "http://data.globalchange.gov/person/6550","Troy","Hill","0000-0003-2980-4099",1
 "http://data.globalchange.gov/person/6575","Daniele","Colombaroli","0000-0002-9632-2009",1
@@ -732,6 +755,7 @@
 "http://data.globalchange.gov/person/4314","Alex","Cannon","0000-0002-8025-3790",1
 "http://data.globalchange.gov/person/4398","Ricky","Lawton","0000-0002-4983-1927",1
 "http://data.globalchange.gov/person/4399","Murray","Rudd","0000-0001-9533-5070",1
+"http://data.globalchange.gov/person/10844","Gregory L.","Bruland","0000-0002-3016-8088",1
 "http://data.globalchange.gov/person/4445","Rui","Taborda","0000-0001-9620-1998",1
 "http://data.globalchange.gov/person/4758","Haibo","Zhai","0000-0001-8585-9559",1
 "http://data.globalchange.gov/person/4789","Pedro J.","Alvarez","0000-0002-6725-7199",1
@@ -757,6 +781,7 @@
 "http://data.globalchange.gov/person/8333","Stephanie C.","Herring","0000-0001-6457-5442",1
 "http://data.globalchange.gov/person/8348","Brian","Blanton","0000-0002-3162-2799",1
 "http://data.globalchange.gov/person/8588","José María","Huerta","0000-0002-9637-3869",1
+"http://data.globalchange.gov/person/10814","Daniel C.","Dunn","0000-0001-8932-0681",1
 "http://data.globalchange.gov/person/9096","Kai","Chan","0000-0002-7804-3276",1
 "http://data.globalchange.gov/person/2589","Christopher A.","Barnes","0000-0002-4608-4364",1
 "http://data.globalchange.gov/person/10177","Jari","Lyytimäki","0000-0003-3308-5234",1
@@ -794,3 +819,6 @@
 "http://data.globalchange.gov/person/963","Doug","Kluck","0000-0002-9698-7991",1
 "http://data.globalchange.gov/person/10429","Samuel","Fankhauser","0000-0003-2100-7888",1
 "http://data.globalchange.gov/person/10427","Nigel","Arnell","0000-0003-2691-4436",1
+"http://data.globalchange.gov/person/10776","Henrique Miguel","Pereira","0000-0003-1043-1675",1
+"http://data.globalchange.gov/person/10778","Vânia","Proença","0000-0001-8245-357X",1
+"http://data.globalchange.gov/person/10780","Jörn P.W.","Scharlemann","0000-0002-2834-6367",1
