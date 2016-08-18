@@ -6,7 +6,7 @@
 # ./sparql-to-csv <filename.sparql> > filename.csv
 #
 
-host=http://data.globalchange.gov/sparql
+host=https://data.globalchange.gov/sparql
 q="`cat ${1:-/dev/stdin}`"
 
 curl -s -G --data-urlencode "format=text/csv" --data-urlencode "query=$q" $host
