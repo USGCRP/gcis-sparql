@@ -1,11 +1,11 @@
 PREFIX dcterms: <http://purl.org/dc/terms/>
 PREFIX prov: <http://www.w3.org/ns/prov#>
-PREFIX gcis: <http://data.globalchange.gov/gcis.owl#>
+PREFIX gcis: <https://data.globalchange.gov/gcis.owl#>
 
 select distinct 
 	?instrument_instance
     (count(?dataset) AS ?dataset_count)
-FROM <http://data.globalchange.gov> 
+FROM <https://data.globalchange.gov> 
     where {
        ?dataset a gcis:Dataset .
        ?dataset prov:wasAttributedTo ?instrument_instance .
