@@ -1,7 +1,7 @@
 PREFIX dcterms: <http://purl.org/dc/terms/>
 PREFIX dbpedia: <http://dbpedia.org/resource/>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
-PREFIX gcis: <http://data.globalchange.gov/gcis.owl#>
+PREFIX gcis: <https://data.globalchange.gov/gcis.owl#>
 
 SELECT * {
 { SELECT DISTINCT
@@ -12,7 +12,7 @@ xsd:integer(SUBSTR(?findingNumber,3)) as ?figureOfChapter
 str(?findingStatement) as ?Finding_Text
 ?finding as ?Finding_ID
 WHERE {
-<http://data.globalchange.gov/report/nca3> gcis:hasChapter ?chapter .
+<https://data.globalchange.gov/report/nca3> gcis:hasChapter ?chapter .
 ?chapter dcterms:title ?chapterTitle .
 ?chapter gcis:chapterNumber ?chapterNumber .
 ?chapter gcis:hasFinding ?finding .
