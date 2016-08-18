@@ -30,7 +30,7 @@ xsd:integer(SUBSTR(?findingNumber,4)) as ?figureOfChapter
 str(?findingStatement) as ?Finding_Text
 ?finding as ?Finding_ID
 WHERE {
-<http://data.globalchange.gov/report/nca3> gcis:hasChapter ?chapter .
+<https://data.globalchange.gov/report/nca3> gcis:hasChapter ?chapter .
 ?chapter dcterms:title ?chapterTitle .
 ?chapter gcis:chapterNumber ?chapterNumber .
 ?chapter gcis:hasFinding ?finding .
