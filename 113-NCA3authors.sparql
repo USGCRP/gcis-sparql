@@ -14,9 +14,9 @@ SELECT DISTINCT
 	str(?rlabel) as ?Role
   str(?cht) as ?ChapterName
 	?cn as ?ChapterNumber
-FROM <http://data.globalchange.gov>
+FROM <https://data.globalchange.gov>
 WHERE {
-  <http://data.globalchange.gov/report/nca3> gcis:hasChapter ?chapter .
+  <https://data.globalchange.gov/report/nca3> gcis:hasChapter ?chapter .
   ?chapter dcterms:title ?cht .
   ?chapter gcis:chapterNumber ?cn .
   ?chapter prov:qualifiedAttribution [ prov:hadRole ?role ; prov:agent ?author ] .
