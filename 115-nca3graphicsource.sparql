@@ -12,9 +12,9 @@ SELECT
     ?title
     ?figure as ?FigureURL
 COUNT (DISTINCT ?figure) as ?Frequency
-FROM <http://data.globalchange.gov>
+FROM <https://data.globalchange.gov>
 WHERE {
-  <http://data.globalchange.gov/report/nca3> gcis:hasFigure ?figure .
+  <https://data.globalchange.gov/report/nca3> gcis:hasFigure ?figure .
   ?figure dcterms:title ?title .
   ?figure gcis:hasCaption ?caption .
   FILTER regex(?caption, "NC")
