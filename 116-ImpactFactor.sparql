@@ -10,10 +10,10 @@ PREFIX dcterms: <http://purl.org/dc/terms/>
 
 SELECT
     DISTINCT ?finding, ?journal
-FROM <http://data.globalchange.gov>
+FROM <https://data.globalchange.gov>
 WHERE {
-  <http://data.globalchange.gov/report/nca3> gcis:hasChapter ?chapter .
-  <http://data.globalchange.gov/report/nca3> gcis:hasFinding ?finding .
+  <https://data.globalchange.gov/report/nca3> gcis:hasChapter ?chapter .
+  <https://data.globalchange.gov/report/nca3> gcis:hasFinding ?finding .
   OPTIONAL{ ?chapter gcis:hasFinding ?finding .}
   ?finding cito:cites ?publication .
   ?publication dcterms:isPartOf ?journal .
