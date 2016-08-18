@@ -7,9 +7,9 @@ PREFIX prov: <http://www.w3.org/ns/prov#>
 PREFIX foaf: <http://xmlns.com/foaf/0.1/>
 
    SELECT DISTINCT ?author as ?ContributorID CONCAT(str(?ln), ", ", str(?gn)) as ?name ?chapter str(?cr) as ?ChapterRole ?article str(?ar) AS ?ArticleRole
-   FROM <http://data.globalchange.gov>
+   FROM <https://data.globalchange.gov>
    WHERE {
-      <http://data.globalchange.gov/report/nca3> gcis:hasChapter ?chapter .
+      <https://data.globalchange.gov/report/nca3> gcis:hasChapter ?chapter .
       ?chapter prov:qualifiedAttribution [ prov:hadRole ?chapter_role ; prov:agent ?author ] .
       ?chapter_role rdfs:label ?cr .
       ?chapter cito:cites ?article .
