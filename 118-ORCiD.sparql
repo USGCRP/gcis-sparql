@@ -1,6 +1,6 @@
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-PREFIX gcis: <http://data.globalchange.gov/gcis.owl#>
+PREFIX gcis: <https://data.globalchange.gov/gcis.owl#>
 PREFIX cito: <http://purl.org/spar/cito/>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 PREFIX dbpprop: <http://dbpedia.org/property/>
@@ -15,9 +15,9 @@ SELECT
     str(?ln) as ?LastName
     ?orcid
 COUNT (DISTINCT ?article) as ?Frequency
-FROM <http://data.globalchange.gov>
+FROM <https://data.globalchange.gov>
 WHERE {
-  { <http://data.globalchange.gov/report/nca3> cito:cites ?article . } UNION {<http://data.globalchange.gov/report/nca3> gcis:hasChapter ?chapter . ?chapter cito:cites ?article . }
+  { <https://data.globalchange.gov/report/nca3> cito:cites ?article . } UNION {<https://data.globalchange.gov/report/nca3> gcis:hasChapter ?chapter . ?chapter cito:cites ?article . }
   ?article prov:qualifiedAttribution [ prov:agent ?author ] .
   ?author vivo:orcidId ?orcid .
   OPTIONAL { ?author foaf:givenName ?gn . }
