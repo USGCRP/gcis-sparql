@@ -1,6 +1,6 @@
 PREFIX dcterms: <http://purl.org/dc/terms/>
 PREFIX prov: <http://www.w3.org/ns/prov#>
-PREFIX gcis: <https://data.globalchange.gov/gcis.owl#>
+PREFIX gcis: <http://data.globalchange.gov/gcis.owl#>
 
 SELECT DISTINCT
 	?instrument_instance
